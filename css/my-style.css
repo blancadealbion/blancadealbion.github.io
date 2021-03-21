@@ -1,7 +1,22 @@
-h3 {color:blue;}
-
-.progress progress-success {
-color: red;
+.navbar {
+  background: #191970;
 }
 
-body {background-image: "https://pin.it/5Yz3D4K";}
+
+h3 {color:blue;}
+
+
+.progress .progress-success {
+    background-color: #007bff;
+}
+
+.card {margin-top: 9px;}
+
+body {
+	background-image: url("https://i.pinimg.com/564x/21/5a/92/215a92b21e86dfd4f6116f40b7448829.jpg");
+}
+
+
+
+strong{color:#0088DD;}
+

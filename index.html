@@ -8,27 +8,40 @@
 		<link rel="stylesheet" href="./css/my-style.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-light bg-light">
- 		 	<div class="container-fluid">
-   		 		<span class="navbar-brand mb-0 h1">Navbar</span>
-  			</div>
-		</nav>
-		
+		 <nav class="navbar navbar-toggleable-md navbar-inverse">
+		      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">My Profile Page</a>
+
+		      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		        <ul class="navbar-nav mr-auto">
+		          <li class="nav-item active">
+		            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="https://www.linkedin.com/in/blanca-arias-borrell-169b5317">Profile</a>
+		          </li>
+
+		        </ul>
+		      </div>
+		    </nav>
+
+
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card text-center">
 						<div class="card block">
-							<h3>Blanca</h3>
-							<img class="img-circle" src= "https://media-exp1.licdn.com/dms/image/C4E03AQHUy0ctbc_6tQ/profile-displayphoto-shrink_200_200/0/1610789714506?e=1622073600&v=beta&t=iojBV0sFGkVBRT4aydIQK-guQym96b-1kZrIu6L8HqY">
-							<h5>Madrilian, living in Munich</h5>
-							<p class="card-text">
-								I hate Monday mornings! <br> I really do!
+							
+							<img class="img-circle animated pulse infinite" src= "https://media-exp1.licdn.com/dms/image/C4E03AQHUy0ctbc_6tQ/profile-displayphoto-shrink_200_200/0/1610789714506?e=1622073600&v=beta&t=iojBV0sFGkVBRT4aydIQK-guQym96b-1kZrIu6L8HqY">
+						
+		
 								<a>
 									<i class="fab fa-linkedin-in"></i>
 							</a>
-							</p>
+						
 							<div class="card-footer">
 								<a>
 				                <i class="fa fa-linkedin-square"></i>
@@ -67,15 +80,24 @@
 							<h4 class="card-title">
 								Hobbies
 							</h4>
-							<p>
-								Travelling
-							<progress class="progress progress-success" value="100" max="100">100% </progress>
+
+							<p> Travelling
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" style="width: 100%; background-color:#191970;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
 							</p>
-							<p>
-								Photography
-							<progress class="progress progress-info" value="100" max="100"> 100% </progress>
+
+							<p> Photography
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" style="width: 100%; background-color:#191970;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+							</p>
 							<p> Programming
-							<progress class="progress progress-warning" value="80" max="100"> 80% </progress>
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" style="width: 30%; background-color:#191970;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+							</p>
+
 						</div>
 					</div>
 				</div>
@@ -85,8 +107,12 @@
 
 				<div class="col-md-8">	
 					<div class="card">
-						<h2> Who I am </h2>
+						<h2> Hello, my name is ...  </h2>
 						<p>
+							<h5>Madrilian, living in Munich</h5>
+							<p class="card-text">
+								I hate Monday mornings! <br> 
+								I really do!
 							bla bla bla bla bla bla <br>
 							bla bla bla bla bla bla <br>
 							bla bla bla bla bla bla <br>
